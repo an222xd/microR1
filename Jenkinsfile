@@ -1,8 +1,8 @@
 pipeline {
     agent {
         docker {
-            image 'rtacho' 
-            args '-p 3000:3000' 
+            image 'quizzical_cannon' 
+            args '' 
         }
     }
     stages {
