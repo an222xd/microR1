@@ -1,0 +1,4 @@
+#Paquetes a instalar#
+npm install express sequelize mysql2 cors --save
+npm install nodemon
+npm install body-parser --save
