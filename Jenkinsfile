@@ -1,9 +1,5 @@
 pipeline {
-    agent {
-        docker {
-            image 'rtacho'
-        }
-    }
+    agent { dockerfile true }
     stages {
         stage('Build') {
             steps {
