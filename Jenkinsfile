@@ -1,10 +1,5 @@
 pipeline {
-    agent {
-        docker {
-            image 'rtachov2 .'
-            args '-p 3001:3001'
-        }
-    }
+    
     stages {
         stage('Build') {
             steps {
