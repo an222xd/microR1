@@ -1,7 +1,7 @@
 pipeline {
     agent {
         docker {
-            image 'testnode'
+            image 'rtacho'
         }
     }
     stages {
