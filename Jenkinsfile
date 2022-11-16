@@ -1,4 +1,8 @@
 pipeline {
+    environment {
+        registry= "iakshaykr/webapp"
+        registryCredential= 'dockerhub'
+    }
     agent { dockerfile true }
     stages {
         stage('Build') {
