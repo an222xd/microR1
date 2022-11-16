@@ -1,7 +1,7 @@
 pipeline {
     agent {
         docker {
-            image 'rtachov2'
+            image 'rtachov2 .'
             args '-p 3001:3001'
         }
     }
